@@ -1,0 +1,54 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!-- array of downloads. -->
+	<key>items</key>
+	<array>
+		<dict>
+			<!-- an array of assets to download -->
+				<key>assets</key>
+				<array>
+				<!-- software-package: the ipa to install. -->
+					<dict>
+						<!-- required. the asset kind. -->
+						<key>kind</key>
+						<string>software-package</string>
+						<!-- required. the URL of the file to download. -->
+						<key>url</key>
+						<string>https://doc-0s-84-docs.googleusercontent.com/docs/securesc/2dbbpsqnii78c1nf149qqt41hcqql1p4/5hbqohfvd66sil9p8sg9l2en1a0oq3jp/1495036800000/06255706731177575288/06255706731177575288/0Bx0K4aOevdLZbUlUamVNMk5jSVU?e=download&nonce=vtm60v8e6dnt2&user=06255706731177575288&hash=h83thhjhm6ses90d5qf5q4i8rhhrs58t</string>
+					</dict>
+					<!-- display-image: the icon to display during download .-->
+					<dict>
+						<key>kind</key>
+						<string>display-image</string>
+						<!-- optional. indicates if icon needs shine effect applied. -->
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<string>https://raw.githubusercontent.com/hadihashime/free-store/master/17554032_178754259306631_5696080681771622930_n.png</string>
+					</dict>
+					<!-- full-size-image: the large 512x512 icon used by iTunes. -->
+					<dict>
+						<key>kind</key>
+						<string>full-size-image</string>
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<string>https://raw.githubusercontent.com/hadihashime/free-store/master/17554032_178754259306631_5696080681771622930_n.png</string>
+					</dict>
+				</array>
+				<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.github.com</string>
+				<key>bundle-version</key>
+				<string>2.2</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>whatsapp IPAD</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>   
